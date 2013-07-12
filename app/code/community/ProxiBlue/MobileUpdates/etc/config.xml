@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <modules>
+        <ProxiBlue_MobileUpdates>
+            <version>0.0.1</version>
+        </ProxiBlue_MobileUpdates>
+    </modules>
+
+    <global>
+        <models>
+            <ProxiBlue_MobileUpdates>
+                <class>ProxiBlue_AttributeDescription_Model</class>
+            </ProxiBlue_MobileUpdates>
+        </models>
+        <resources>
+            <proxiblue_mobileupdates_setup>
+                <setup>
+                    <module>ProxiBlue_MobileUpdates</module>
+                    <class>ProxiBlue_MobileUpdates_Model_Mysql4_Setup</class>
+                </setup>
+            </proxiblue_mobileupdates_setup>
+        </resources>
+    </global>
+</config>
