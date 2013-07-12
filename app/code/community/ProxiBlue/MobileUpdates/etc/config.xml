@@ -10,7 +10,7 @@
     <global>
         <models>
             <ProxiBlue_MobileUpdates>
-                <class>ProxiBlue_AttributeDescription_Model</class>
+                <class>ProxiBlue_MobileUpdates_Model</class>
             </ProxiBlue_MobileUpdates>
         </models>
         <resources>
